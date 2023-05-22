@@ -1,0 +1,17 @@
+header{
+    background-image: url('img/pattern.png');
+    background-color: aqua;
+    background-size: 400px;
+    height: 130px;
+}
+
+#the_booleaner {
+    height: 90px;
+    position: relative;
+    top: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
