@@ -44,9 +44,23 @@ h2,h3 {
     font-size: 14px;
     margin: 0px;
 }
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+.cellestrette {
+    width: 250px;
+}
+
+.table_celeste {
+    background-color: rgb(101, 199, 255);
+}
+
 .thead_lorem {
     color: white;
-    background-color: rgb(101, 199, 255);
+    background-color: rgb(34, 155, 224);
 }
 
 h4 {
