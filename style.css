@@ -4,53 +4,43 @@ body {
 }
 
 header {
-    height: 160px;
     background-image: url("img/pattern.png");
     background-color: rgba(32,169,229,255);
-    background-size: 650px; 
+    padding: 70px 0 10px 10px;
+    margin-bottom: 15px;
+}
+
+#textbooleaner{
+    width: 400px;
 }
 
 main, footer {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 0px 10px;
 }
 
-#the_booleaner {
-    height: 100px;
-    position: relative;
-    top: 55px;
+h1, h3, h5{
+    margin: 0px;
 }
 
 a {
     text-decoration: none;
 }
 
-h1 {
-    margin-bottom: 0px;
-    font-size: 50px;
-}
-
-h2 {
-    margin: 0px;
-    font-size: 20px;
-}
-
-h3 {
-    margin-top: 0px;
-    font-size: 14px;
-}
-
-h2,h3 {
+h3, h4, h5 {
     color: grey;
 }
 
-.note_photo {
-    font-size: 14px;
+h5 {
+    margin-bottom: 20px;
+}
+
+.note_photo{
+    font-size: 12px;
     margin: 0px;
 }
 
-ul {
-    padding-left: 20px;
+.evidenzia {
+    background-color: yellow;
 }
 
 table {
@@ -58,12 +48,8 @@ table {
     text-align: left;
   }
 
-.cellestrette {
-    width: 250px;
-}
-
-.table_celeste {
-    background-color: rgba(177,229,242,255);
+ul {
+    padding-left: 20px;
 }
 
 .thead_lorem {
@@ -71,29 +57,32 @@ table {
     background-color: rgba(32,169,229,255);
 }
 
+.cellestrette {
+    width: 300px;
+}
+
+.table_celeste {
+    background-color: rgba(177,229,242,255);
+}
+
 h4 {
-    font-size: 20px;
-    color: grey;
     margin-bottom: 10px;
 }
 
-#interest1 {
+.container{
+    width: 312px;
+    height: 208px;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px 20px 0px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#foto_footer1 {
     background-image: url("img/monitor.jpg");
-    margin-bottom: 10px;
 }
 
-#interest2 {
+#foto_footer2 {
     background-image: url("img/graph.jpg");
 }
-
-.interests {
-    width: 220px;
-    height: 150px;
-    padding: 20px 20px;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    background-size: cover;
-    background-position: center;
-}
-
