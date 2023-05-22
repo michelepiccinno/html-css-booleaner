@@ -1,17 +1,49 @@
-header{
-    background-image: url('img/pattern.png');
-    background-color: aqua;
-    background-size: 400px;
-    height: 130px;
+
+body {
+    width: 1100px;
+}
+
+#title {
+    height: 160px;
+    background-image: url("img/pattern.png");
+    background-color: rgb(101, 199, 255);
+    background-size: 650px;
+    display: inline-block;
+   
 }
 
 #the_booleaner {
-    height: 90px;
+    height: 100px;
     position: relative;
-    top: 30px;
-    margin-bottom: 30px;
+    top: 55px;
 }
 
 a {
     text-decoration: none;
 }
+
+h1 {
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+h2,h3 {
+    color: grey;
+}
+
+.note_photo {
+    font-size: 14px;
+    margin: 0px;
+}
+
